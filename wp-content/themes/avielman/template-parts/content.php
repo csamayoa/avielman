@@ -22,8 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				avielman_posted_on();
-				avielman_posted_by();
+				//avielman_posted_on();
+				//avielman_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -54,6 +54,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php avielman_entry_footer(); ?>
+		<?php //avielman_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

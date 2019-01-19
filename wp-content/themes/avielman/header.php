@@ -45,8 +45,13 @@
             </nav><!-- #site-navigation -->
         </div>
         <div id="main_banner">
-
-        </div>
+            <div class="container" id="main_banner_container">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h2>Auditoría III - Registro</h2>
+                    </div>
+                </div>
+            </div>
     </header><!-- #masthead -->
 
     <div id="content" class="site-content">

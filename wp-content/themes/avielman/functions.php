@@ -120,6 +120,9 @@ add_action( 'widgets_init', 'avielman_widgets_init' );
  * Enqueue scripts and styles.
  */
 function avielman_scripts() {
+    wp_enqueue_style( 'Animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css' );
+    wp_enqueue_style( 'font awsome', 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' );
+    wp_enqueue_style( 'boostrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
 	wp_enqueue_style( 'avielman-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'avielman-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
