@@ -1,0 +1,18 @@
+{
+	"description": "Enviador de diplomas",
+	"name": "codeigniter/diplomas",
+	"type": "project",
+	"homepage": "https://zenstudiogt.com",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.7",
+		"dompdf/dompdf": "^0.8.3"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*",
+		"phpunit/phpunit": "4.* || 5.*"
+	}
+}

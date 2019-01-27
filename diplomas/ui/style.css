@@ -1,0 +1,28 @@
+@page {
+    size: 11in 8.5in;
+    margin: 0;
+}
+html, #container{
+    width: 11in;
+    height: 8.5in;
+    margin: 0px;
+}
+body{
+    margin: 0;
+}
+#container {
+    margin: 0px;
+    position: absolute;
+    background: url("img/diplomas_carta_1.jpg");
+    background-size: contain;
+}
+div#nombre_alumno {
+    position: absolute;
+    top: 37%;
+    width: inherit;
+    text-align: center;
+    font-size: 4.5rem;
+}
+@page {
+size: 11in 8.5in
+}
