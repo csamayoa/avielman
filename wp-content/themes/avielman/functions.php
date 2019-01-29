@@ -119,6 +119,11 @@ add_action( 'widgets_init', 'avielman_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
+// Replaces the excerpt "Read More" text by a link
+function modify_read_more_link() {
+    return '<a class="read-article" href="' . get_permalink() . '">Leer más</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
 function avielman_scripts() {
     wp_enqueue_style( 'Animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css' );
     wp_enqueue_style( 'font awsome', 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' );

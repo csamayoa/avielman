@@ -27,22 +27,30 @@
     <header id="masthead" class="site-header">
         <div id="top_info"></div>
         <div id="logo_menu">
-            <div class="site-branding">
-                <?php
-                the_custom_logo();
-                ?>
-            </div><!-- .site-branding -->
+            <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="site-branding">
+                        <?php
+                        the_custom_logo();
+                        ?>
+                    </div><!-- .site-branding -->
 
-            <nav id="site-navigation" class="main-navigation">
-                <button class="menu-toggle" aria-controls="primary-menu"
-                        aria-expanded="false"><?php esc_html_e('Primary Menu', 'avielman'); ?></button>
-                <?php
-                wp_nav_menu(array(
-                    'theme_location' => 'menu-1',
-                    'menu_id' => 'primary-menu',
-                ));
-                ?>
-            </nav><!-- #site-navigation -->
+                </div>
+                <div class="col-md-10">
+                    <nav id="site-navigation" class="main-navigation">
+                        <button class="menu-toggle" aria-controls="primary-menu"
+                                aria-expanded="false"><?php esc_html_e('Primary Menu', 'avielman'); ?></button>
+                        <?php
+                        wp_nav_menu(array(
+                            'theme_location' => 'menu-1',
+                            'menu_id' => 'primary-menu',
+                        ));
+                        ?>
+                    </nav><!-- #site-navigation -->
+                </div>
+            </div>
+            </div>
         </div>
         <div id="main_banner">
             <div class="container" id="main_banner_container">

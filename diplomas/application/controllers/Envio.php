@@ -49,6 +49,8 @@ class Envio extends CI_Controller {
     function asistentes(){
         $data['asistentes']=$this->Diplomas_model->get_participantes();
 
+
+
         $this->load->view('asistentes',$data);
     }
 

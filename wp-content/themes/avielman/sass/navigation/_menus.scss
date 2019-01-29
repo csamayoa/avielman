@@ -52,6 +52,7 @@
 	li {
 		float: left;
 		position: relative;
+		margin: 20px 19px;
 
 		&:hover > a,
 		&.focus > a {
@@ -61,6 +62,9 @@
 	a {
 		display: block;
 		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bolder;
+		color: #00102c;
 	}
 
 	.current_page_item > a,
